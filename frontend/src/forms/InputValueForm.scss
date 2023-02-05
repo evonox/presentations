@@ -1,0 +1,13 @@
+
+.InputValueForm-ValidationMessage {
+    position: relative;
+    color: red;
+    font-size: .95rem;
+    height: 0.5rem;
+
+    & > span {
+        position: absolute;
+        left: 1rem;
+        top: 0;
+    }
+}

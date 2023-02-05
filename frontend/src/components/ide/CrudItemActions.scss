@@ -1,0 +1,13 @@
+
+.CrudItemActions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 4px;
+}
+
+.CrudItemActions-Button {
+    padding: 0rem !important;
+    height: 2.5em !important;
+    width: 2.5em !important;
+}

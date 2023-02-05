@@ -1,0 +1,27 @@
+
+.NavigationButton {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    padding: 10px 20px;
+    justify-items: center;
+
+    color: whitesmoke;
+    background-color: #444;
+    border-bottom: 2px solid black;
+    user-select: none;
+
+    &:hover {
+        background-color: #666;
+        cursor: pointer;
+    }
+}
+
+.NavigationButton-Icon {
+
+}
+
+.NavigationButton-Title {
+    text-align: center;
+    font-size: 1rem;
+}

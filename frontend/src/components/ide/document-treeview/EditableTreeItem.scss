@@ -1,0 +1,60 @@
+
+
+.EditableTreeItem {
+    position: relative;
+    width: 100%;
+}
+
+.EditableTreeItem-Content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.EditableTreeItem-NodeLabel {
+    padding-left: calc(0.5rem + 1px) !important;
+}
+
+
+.EditableTreeItem-InputText {
+    width: 100%;
+}
+
+.EditableTreeItem-InputText .p-inputtext {
+    box-sizing: border-box !important;
+    box-shadow: none !important;
+    padding-left: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.EditableTreeItem-InputText-Updating {
+    position: relative;
+    opacity: 0.5;   
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+}
+
+.EditableTreeItem-Cog {
+    position: absolute;
+    right: 0.5rem;
+    top: 0;
+    font-size: 1.6rem;
+}

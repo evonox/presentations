@@ -1,0 +1,79 @@
+
+.HomeView {
+    display: grid;
+    padding: 3rem 6rem;
+    background-color: whitesmoke;
+}
+
+.HomeView-Body {
+    display: grid;
+}
+
+.CardHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    .p-card-title {
+        flex: 1;
+    }
+}
+
+.HomeView-Card {
+
+    font-size: 2rem !important;
+    display: grid !important;
+    grid-template-rows: auto 1fr;
+    padding: 0.75em !important;
+    filter: drop-shadow(2px 2px 3px darkgray);
+
+    .p-card-title {
+        font-size: 1em !important;
+    }
+
+    .p-card-subtitle {
+        font-size: 0.65em !important;
+        font-weight: bold !important;
+    }
+
+    .p-card-body {
+        display: grid !important;
+        grid-template-rows:  auto 1fr !important;
+        padding: 0.25rem !important;
+    }
+
+    .p-card-content {
+        display: grid !important;
+        padding: 0rem !important;
+    }
+}
+
+.HomeView-Presentations {
+    border: 1px solid lightgray;
+    overflow-y: auto;
+    display: grid;
+
+    ul {
+        margin: 0 !important;
+        padding: 1.5rem;
+    }
+
+    li {
+        margin: 0;
+        list-style: none;
+        font-size: 0.65em;
+        padding: .75rem 1.5rem;
+        user-select: none;
+
+        &:hover {
+            cursor: pointer;
+            background-color: wheat;
+        }
+
+        &:active {
+            background-color: darken(wheat, 5%);
+        }
+    }
+}

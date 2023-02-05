@@ -1,0 +1,13 @@
+
+.CompositionView {
+    display: grid;
+    grid-template-rows: 100%;
+}
+
+.CompositionView-DiagramView {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 4px;
+    padding: 4px;
+    padding-right: 0;
+}

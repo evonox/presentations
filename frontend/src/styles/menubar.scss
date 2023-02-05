@@ -1,0 +1,61 @@
+.AppMenuBar {
+    .p-menu {
+        background: var(--surface-900) !important;     
+        border-radius: 0px !important;
+        padding: 0px !important;
+        border-color: transparent !important;
+        border-width: 0px !important;
+    }
+    
+    .p-submenu-header {
+        background: var(--surface-900) !important;    
+    }
+    
+    .p-submenu-header, .p-menuitem-text {
+        color: white !important;
+        border-color: transparent !important;
+    }
+    
+    .p-menuitem-link:hover {
+        background-color: var(--surface-800) !important;
+    }
+    
+    
+    .p-menubar {
+        background-color: transparent !important;
+        padding: 0 !important;
+        border-color: transparent !important;
+    }
+    
+    .p-submenu-list {
+        background-color: var(--surface-700) !important;
+        min-width: max-content !important;
+        z-index: 10000 !important; // Must be set - Python IDE Docking Library may accidentally distore the correct layering
+        // border: 1px solid white !important;
+        // box-shadow: 1px 1px 3px 0px black !important;
+    }
+    
+    .p-menuitem {
+        a, a:active, a:focus  {
+            border-color: transparent !important;
+            outline: none !important;
+            box-shadow: none !important;
+        
+        }
+    
+        .p-submenu-icon {
+            color: white !important;
+        }
+    }
+    
+    .p-menubar.p-menubar-mobile-active  .p-menubar-root-list {
+        background-color: var(--surface-600) !important;
+        min-width: max-content !important;
+    }
+    
+    .p-menuitem-link {
+        background-color: transparent !important;
+        white-space: nowrap !important;
+    }
+    
+}
