@@ -1,0 +1,9 @@
+
+.ImageViewSelector {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 6px;
+    padding: 6px;
+    background-color: whitesmoke;
+    text-align: right;
+}

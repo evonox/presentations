@@ -1,0 +1,26 @@
+
+.ImageListView-Header {
+    padding: 0.35rem;
+    background-color: #ced4da;
+    display: grid;
+    justify-content: right;
+    border-radius: 6px;
+}
+
+.ImageListView-Item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    align-items: center;
+
+    span {
+        flex: 1;
+        font-weight: bold;
+    }
+
+}
+
+.ImageListView-Loader {
+    color: #444;
+}

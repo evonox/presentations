@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: grid;
+  overflow: hidden;
+}
+
+@import "./styles/index.scss";
+
+a, a:hover, a:active {
+  text-decoration: none;
+}
+
+.p-panel-content {
+  padding: 0.5rem !important;
+}
+
+.p-confirm-dialog {
+  min-width: 500px;
+}
+
+.p-button-link {
+  color: black !important;
+  padding: 0.5rem !important;
+
+  &:hover, &:focus {
+    box-shadow: none !important;
+  }
+}
+
+.p-panel {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.p-toggleable-content, .p-panel-content {
+  display: grid;
+}
+
+
+.p-tabview {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.p-tabview-panels, .p-tabview-panel {
+  display: grid !important;
+}
+
+.p-tree {
+  padding: 0.25rem !important; 
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow-y: hidden;
+}
+
+.p-treenode-content {
+  padding: 0.4rem !important;
+}
+
+.p-treenode-droppoint {
+  height: 0 !important;
+}
+
+.p-blockui-container {
+  display: grid;
+}

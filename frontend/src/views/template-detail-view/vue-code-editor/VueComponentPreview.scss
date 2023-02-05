@@ -1,0 +1,49 @@
+
+.VueComponentPreview {
+    position: relative;
+    display: grid;
+    background-color: lightgray;
+    padding: 6px;
+}
+
+.VueComponentPreview-Content {
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: white;
+    overflow: auto;
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.VueComponentPreview-IsDirty {
+    position: relative;
+}
+
+.VueComponentPreview-IsDirty::before {
+    content: 'Až přestanete psát, pohled se automaticky aktualizuje...';
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: orangered;
+    text-align: center;
+}
+
+.VueComponentPreview-ErrorView {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background-color: lighten(red, 45%);
+    z-index: 1;
+    overflow: auto;
+}
+
+.VueComponentPreview-ErrorList {
+    padding: 1rem;
+    padding-left: 2rem;
+    color: red;
+}

@@ -1,0 +1,10 @@
+
+.DocumentListView {
+    display: grid;
+}
+
+.DocumentListView-Content {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 4px;
+}

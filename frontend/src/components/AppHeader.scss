@@ -1,0 +1,37 @@
+
+.AppHeader {
+    background-color: #2a2a2a;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.6rem;
+    align-items: center;
+
+    padding: 0.5rem 1rem;
+    padding-right: 0.375rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    user-select: none;
+}
+
+.AppHeader-Logo {
+    cursor: pointer;
+
+    &:hover {
+        color: lightblue;
+    }
+}
+
+.AppHeader-Separator {
+    flex: 1;
+}
+
+.AppHeader-PresentationName {
+    font-size: 1.2rem;
+    color: lightblue;
+}
+
+.AppHeader-GenerateButton {
+    margin: 0 !important;
+}

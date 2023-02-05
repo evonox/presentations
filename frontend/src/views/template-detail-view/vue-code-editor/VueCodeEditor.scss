@@ -1,0 +1,12 @@
+
+.VueCodeEditor {
+    display: grid;
+    grid-template-columns: 55% 1fr;
+    gap: 5px;
+}
+
+.VueCodeEditor-Preview {
+    display: grid;
+    grid-template-rows: 70% 1fr;
+    gap: 5px;
+}

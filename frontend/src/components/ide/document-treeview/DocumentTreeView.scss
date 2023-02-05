@@ -1,0 +1,14 @@
+
+.DocumentTreeView {
+    display: grid;
+}
+
+.DocumentTreeView-Content {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 6px;
+}
+
+.DocumentTreeView-TreeWrapper {
+    display: grid;
+}
